@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 46,
+    "height" : 48
+  }, {
+    "width" : 92,
+    "height" : 95
+  }, {
+    "width" : 183,
+    "height" : 189
+  }, {
+    "width" : 366,
+    "height" : 377
+  }, {
+    "width" : 731,
+    "height" : 753
+  }, {
+    "width" : 1462,
+    "height" : 1506
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1462,
+  "@id" : "https://piiajn.github.io/Piia-Finna-IIIF-test/images/iiif-kuva",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1506
+}
