@@ -88,6 +88,87 @@
                     ]
                 }
             ]
+        },
+        {
+            "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/blacksmith/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "blacksmith"
+                ]
+            },
+            "height": 1024,
+            "width": 735,
+            "items": [
+                {
+                    "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/blacksmith/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/blacksmith/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/blacksmith/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 23,
+                                                "height": 32
+                                            },
+                                            {
+                                                "width": 46,
+                                                "height": 64
+                                            },
+                                            {
+                                                "width": 92,
+                                                "height": 128
+                                            },
+                                            {
+                                                "width": 184,
+                                                "height": 256
+                                            },
+                                            {
+                                                "width": 368,
+                                                "height": 512
+                                            },
+                                            {
+                                                "width": 735,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 735,
+                                        "@id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/blacksmith",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1024,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/blacksmith/canvas/"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
