@@ -9,26 +9,26 @@
     },
     "items": [
         {
-            "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/iiif-kuva/canvas/",
+            "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/harwardart/canvas/",
             "type": "Canvas",
             "label": {
                 "none": [
-                    "iiif-kuva"
+                    "harwardart"
                 ]
             },
-            "height": 1506,
-            "width": 1462,
+            "height": 899,
+            "width": 1024,
             "items": [
                 {
-                    "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/iiif-kuva/annotation/AnnoPage",
+                    "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/harwardart/annotation/AnnoPage",
                     "type": "AnnotationPage",
                     "items": [
                         {
-                            "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/iiif-kuva/annotation/",
+                            "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/harwardart/annotation/",
                             "type": "Annotation",
                             "motivation": "painting",
                             "body": {
-                                "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/iiif-kuva/full/full/0/default.jpg",
+                                "id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/harwardart/full/full/0/default.jpg",
                                 "type": "Image",
                                 "service": [
                                     {
@@ -49,41 +49,41 @@
                                         "protocol": "http://iiif.io/api/image",
                                         "sizes": [
                                             {
-                                                "width": 46,
-                                                "height": 48
+                                                "width": 32,
+                                                "height": 29
                                             },
                                             {
-                                                "width": 92,
-                                                "height": 95
+                                                "width": 64,
+                                                "height": 57
                                             },
                                             {
-                                                "width": 183,
-                                                "height": 189
+                                                "width": 128,
+                                                "height": 113
                                             },
                                             {
-                                                "width": 366,
-                                                "height": 377
+                                                "width": 256,
+                                                "height": 225
                                             },
                                             {
-                                                "width": 731,
-                                                "height": 753
+                                                "width": 512,
+                                                "height": 450
                                             },
                                             {
-                                                "width": 1462,
-                                                "height": 1506
+                                                "width": 1024,
+                                                "height": 899
                                             }
                                         ],
                                         "profile": "http://iiif.io/api/image/2/level0.json",
-                                        "width": 1462,
-                                        "@id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/iiif-kuva",
+                                        "width": 1024,
+                                        "@id": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/harwardart",
                                         "@context": "http://iiif.io/api/image/2/context.json",
-                                        "height": 1506,
+                                        "height": 899,
                                         "@type": "ImageService2"
                                     }
                                 ],
                                 "format": "image/jpeg"
                             },
-                            "target": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/iiif-kuva/canvas/"
+                            "target": "https://piiajn.github.io/Piia-Finna-IIIF-test/images/harwardart/canvas/"
                         }
                     ]
                 }

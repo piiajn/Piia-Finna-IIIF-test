@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 32,
+    "height" : 29
+  }, {
+    "width" : 64,
+    "height" : 57
+  }, {
+    "width" : 128,
+    "height" : 113
+  }, {
+    "width" : 256,
+    "height" : 225
+  }, {
+    "width" : 512,
+    "height" : 450
+  }, {
+    "width" : 1024,
+    "height" : 899
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 1024,
+  "@id" : "https://piiajn.github.io/Piia-Finna-IIIF-test/images/harwardart",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 899
+}
