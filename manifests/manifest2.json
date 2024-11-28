@@ -1,0 +1,94 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://piiajn.github.io/Piia-Finna-IIIF-test/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Taidetta ja työpajoja",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Omituinen yhdistelmä: taidetyöpaja",
+    "@language" : "fi"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nd-sa/4.0/",
+  "attribution" : "PiiaN harjoituskappale",
+  "sequences" : [ {
+    "@id" : "http://39f3666a-4776-4685-851c-20e32175d701",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://2071f9a0-602d-4f42-9b85-d09067475569",
+      "@type" : "sc:Canvas",
+      "label" : "Piian metallityöpaja",
+      "height" : 1024,
+      "width" : 735,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://61856089-43dc-4280-88f4-fecaac0c9dea",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fpiiajn%2FPiia-Finna-IIIF-test%2Fblacksmith/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fpiiajn%2FPiia-Finna-IIIF-test%2Fblacksmith",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 1024,
+          "width" : 735
+        },
+        "on" : "http://2071f9a0-602d-4f42-9b85-d09067475569"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://06eb778b-156a-44cf-a372-4ab0ddb80272",
+      "@type" : "sc:Canvas",
+      "label" : "Taidetta",
+      "height" : 899,
+      "width" : 1024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://7138e940-5bab-4c81-82e0-a8e675bf735b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fpiiajn%2FPiia-Finna-IIIF-test%2Fharwardart/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.gdmrdigital.com/image/iiif/2/training%2Fpiiajn%2FPiia-Finna-IIIF-test%2Fharwardart",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "color", "gray", "bitonal", "default" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "sizeAboveFull", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 899,
+          "width" : 1024
+        },
+        "on" : "http://06eb778b-156a-44cf-a372-4ab0ddb80272"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://61856089-43dc-4280-88f4-fecaac0c9dea" ]
+  } ]
+}
