@@ -1,0 +1,13 @@
+{
+  "id" : "https://piiajn.github.io/Piia-Finna-IIIF-test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in piiajn/Piia-Finna-IIIF-test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://piiajn.github.io/Piia-Finna-IIIF-test/manifests/manifest2.json",
+    "label" : "Taidetta ja työpajoja"
+  } ]
+}
